@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[#151414] text-[#e7cfb1]">
+      <body className="bg-[#151414] text-[#e7cfb1] cursor-none">
         {children}
       </body>
     </html>

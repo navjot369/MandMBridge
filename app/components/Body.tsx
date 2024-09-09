@@ -50,7 +50,8 @@ const Body = () => {
     return (
         <>
             <div
-                className="flex justify-center items-center flex-col text-5xl  mt-8 "
+            id="firstDiv"
+                className="flex justify-center items-center flex-col text-5xl  mt-8"
             >
                 <div 
                 id="bodydiv1"
