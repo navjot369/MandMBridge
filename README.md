@@ -25,8 +25,9 @@ We welcome contributions from everyone! Here's how you can get involved:
 
 - **Share Knowledge:** Submit articles, tutorials, or your own learning experiences.
 - **Mentorship:** Volunteer to be a mentor and help others grow.
-- **Project Contributions:** Collaborate on community projects or start your own.
+- **Project Contributions:** Collaborate on community projects or start your own .
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
+
