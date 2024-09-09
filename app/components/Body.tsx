@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { PiStudentFill } from "react-icons/pi";
-
+import { PiChalkboardTeacherLight } from "react-icons/pi";
 
 const Body = () => {
     const tl = gsap.timeline();
@@ -54,39 +54,42 @@ const Body = () => {
             >
                 <div 
                 id="bodydiv1"
-                className="my-6">
+                className="mt-5 mb-2 text-6xl">
                     <h2>
-                        Discover . <span className="text-[#cc983e]">Connect </span>
-                        . Grow
+                        Discover. <span className="text-[#cc983e]">Connect. </span>
+                         Grow
                     </h2>
                 </div>
-                <h3 className="mt-3 mb-20">
-                    Where experience meets Growth Your Personal platform
+                <h3 className="mt-3 text-2xl mb-12 text-center">
+                      Where experience meets ambition. 
+                     <br />Your personal growth platform
                 </h3>
-                <div className="flex flex-row justify-around">
+
+                <div className="flex flex-row justify-around ">
                     <div 
                     id="box1"
                     className="flex flex-col items-center border border-[#f3ca82] w-1/4 rounded-3xl justify-around p-5 mb-8">
-                       <PiStudentFill />
+                       <PiStudentFill className="text-6xl" />
                         <div className="text-center text-3xl w-2/3 mt-0">
-                            I&apos;m Looking for a Mentor
+                            I&apos;m Looking for a Mentor!
                         </div>
                     </div>
                     <div
                     id="box2"
                     className="flex flex-col flex-wrap justify-center items-center border border-[#f3ca82] w-1/3 rounded-3xl p-5 mt-3">
-                        <div className="text-6xl">Who are we?</div>
+                        <div className="text-6xl mb-2">Who are we?</div>
                         <div className="text-3xl text-center w-10/12 ">
-                            We,re a passionate community dedicated to bridge the
-                            gap between the proffesional & the eager to learn
+                            We&#39;re a passionate community dedicated to bridge the
+                            gap between the professional & the eager to learn.
                         </div>
                     </div>
                     <div 
                     id="box3"
                     className="flex flex-col items-center border border-[#f3ca82] w-1/4 rounded-3xl justify-around p-5 mb-8">
-                        <div>icon</div>
+                        {/* <div>icon</div> */}
+                        <PiChalkboardTeacherLight className="text-6xl"/>
                         <div className="text-center text-3xl w-2/3">
-                            I&apos;d Like to Contribute as a Mentor
+                            I&apos;d Like to Contribute as a Mentor!
                         </div>
                     </div>
                 </div>
